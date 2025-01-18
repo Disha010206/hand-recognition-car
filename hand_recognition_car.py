@@ -23,7 +23,6 @@ def count_fingers(hand_landmarks):
     if hand_landmarks[20][1] < hand_landmarks[19][1]:
         fingers += 1
     return fingers
-
 cap = cv2.VideoCapture(0)
 
 while True:
